@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'font1';
+    src: local('font1'), url(./font/font1.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'font2';
+    src: local('font2'), url(./font/font2.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'font3';
+    src: local('font3'), url(./font/font3.ttf) format('truetype');
+  }
