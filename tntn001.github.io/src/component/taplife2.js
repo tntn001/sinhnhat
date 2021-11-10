@@ -4,7 +4,6 @@ import { contentStyle1, contentArrow1, Task, iconStyle1, contentStyleTaplife, ic
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from "@material-ui/icons/Work"
 
 
 
@@ -25,8 +24,7 @@ export default class TapLifeTwo extends React.Component {
         return (<VerticalTimelineElement
             contentStyle={contentStyleTaplife}
             contentArrowStyle={contentArrow1}
-            iconStyle={iconStyleTaplife}
-            icon={<WorkIcon />}
+            iconStyle={iconStyleTaplife}            
             date={strs.taplife_date_2} >
             <Regency content={strs.taplife_regency_2} />
             <Company content={strs.taplife_com} />

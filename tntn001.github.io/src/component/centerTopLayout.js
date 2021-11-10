@@ -6,7 +6,7 @@ import { colorNormalText, colorBGTitle, colorTextInBlack } from "../colorDefine"
 import ProgressBarAnimated from "./progressBarAnimated";
 import strs from "../stringDefine"
 
-import LocationIcon from "@material-ui/icons/LocationSearching";
+
 
 const CSharpText = "C# - Unity";
 const CSharpSkillValue = 87;

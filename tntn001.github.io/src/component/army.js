@@ -4,7 +4,6 @@ import { contentStyle1, contentArrow1, Task, iconStyle2, contentStyleArmy, iconS
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import ArmyIcon from "@material-ui/icons/MyLocation"
 import army1 from "../image/army_1.png";
 import army2 from "../image/army_2.png";
 import bullet from "../image/bullet.png";
@@ -22,8 +21,7 @@ export default class Army extends React.Component {
         return (<VerticalTimelineElement
             contentStyle={contentStyleArmy}
             contentArrowStyle={contentArrow1}
-            iconStyle={iconStyleArmy}
-            icon={<ArmyIcon />}
+            iconStyle={iconStyleArmy}            
             date={strs.joy_1_date} >
             <Regency content={strs.army_regency} />
             <Company content={strs.army_com} />

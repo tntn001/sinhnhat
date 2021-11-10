@@ -4,7 +4,6 @@ import { contentStyle1, contentArrow1, Task, iconStyle1, contentStyleOnetech, ic
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from "@material-ui/icons/Work"
 import onetechPng from "../image/onetech.png";
 import onetechPng2 from "../image/onetech_2.png";
 
@@ -22,8 +21,7 @@ export default class Onetech extends React.Component {
         return (<VerticalTimelineElement
             contentStyle={contentStyleOnetech}
             contentArrowStyle={contentArrow1}
-            iconStyle={iconStyleOnetech}
-            icon={<WorkIcon />}
+            iconStyle={iconStyleOnetech}            
             date={strs.onetech_date} >
             <Regency content={strs.onetech_regency} />
             <Company content={strs.onetech_com} />

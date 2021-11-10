@@ -4,7 +4,6 @@ import { contentStyle1, contentArrow1, Task, iconStyle1, contentStyleJoy, iconSt
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from "@material-ui/icons/Work"
 import captainStrike from "../image/captain_strike.png";
 
 import { Regency, Company } from "./timelineStyle";
@@ -22,8 +21,7 @@ export default class JoyWorkOTwo extends React.Component {
         return (<VerticalTimelineElement
             contentStyle={contentStyleJoy}
             contentArrowStyle={contentArrow1}
-            iconStyle={iconStyleJoy}
-            icon={<WorkIcon />}
+            iconStyle={iconStyleJoy}            
             date={strs.joy_2_date} >
             <Regency content={strs.joy_2_regency} />
             <Company content={strs.joy_com} />

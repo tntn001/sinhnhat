@@ -5,7 +5,6 @@ import CenterTop from "./centerTopLayout";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import StarIcon from "@material-ui/icons/Star"
 
 import JoyWorkOne from "./joy1"
 import JoyWorkTwo from "./joy2"
@@ -70,10 +69,6 @@ function Center() {
             <TapLifeOne />
             <TapLifeTwo />
             <TapLifeThree />
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                icon={<StarIcon />}
-            />
         </VerticalTimeline>
     </div>);
 

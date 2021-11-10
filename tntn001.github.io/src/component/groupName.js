@@ -2,7 +2,7 @@ import React from "react";
 import RoundImage from "react-rounded-image";
 import MyAvatar from "../image/avatar.png";
 import "../index.css";
-import catGif from "../image/cat.gif"
+import cake from "../image/cake-2.gif"
 
 import { colorName, colorLightBlue } from "../colorDefine";
 
@@ -37,7 +37,7 @@ function groupInfo() {
                 background: colorLightBlue,
 
             }}>
-                <img height={100} src={catGif} />
+                <img height={100} src={cake} />
             </div>
             {avatar()}
             {AboutMe()}

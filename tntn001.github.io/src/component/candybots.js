@@ -4,7 +4,6 @@ import { contentStyle1, contentArrow1, Task, iconStyle1, contentStyleCandybot, i
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from "@material-ui/icons/Work"
 import candybots1 from "../image/candybots_1.png";
 import candybots2 from "../image/candybots_2.png";
 
@@ -12,7 +11,7 @@ import { Regency, Company } from "./timelineStyle";
 
 import strs from "../stringDefine";
 
-import YouTube from "react-youtube";
+
 import ImageViewer from "./ImageViewer";
 
 
@@ -24,7 +23,7 @@ export default class Candybots extends React.Component {
             contentStyle={contentStyleCandybot}
             contentArrowStyle={contentArrow1}
             iconStyle={iconStyleCandybot}
-            icon={<WorkIcon />}
+            
             date={strs.candy_date} >
             <Regency content={strs.candy_regency} />
             <Company content={strs.candy_com} />
@@ -36,9 +35,7 @@ export default class Candybots extends React.Component {
                 display: "flex",
                 flexDirection: "column",
             }}>
-                <ImageViewer list={[candybots1, candybots2]} width={150} />
-                <YouTube videoId="pOiGu78K4H0"
-                    opts={{ width: "200", height: "150" }} />
+                <ImageViewer list={[candybots1, candybots2]} width={150} />               
             </div>
 
         </VerticalTimelineElement>);
